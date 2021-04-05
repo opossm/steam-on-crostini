@@ -13,3 +13,20 @@ Then run steam-install.sh
 If Source is having issues with color shift, use source-fix.sh
 
 !This will be updated eventually!
+
+Known Issues
+===========
+- Some steam.desktop files are empty, but that's a Valve fault. This tool may not work if your .desktop file is empty
+
+
+
+
+
+
+
+
+
+
+
+
+subscrib to foxx
