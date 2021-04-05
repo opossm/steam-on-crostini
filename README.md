@@ -18,9 +18,11 @@ Known Issues
 ===========
 - Some steam.desktop files are empty, but that's a Valve fault. This tool may not work if your .desktop file is empty
 
-
-
-
+Planned Features
+===========
+- Better GUI maybe?
+- Easier to use and execute script
+- More utilities such as copying game dirs and files?
 
 
 
