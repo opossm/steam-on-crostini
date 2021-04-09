@@ -11,6 +11,7 @@ First run 'sudo chmod a+rwx' on all of the files in the folder
 Then run steam-install.sh
 
 If Source is having issues with color shift, use source-fix.sh
+When prompted, replace the first mention of 'Exec=' with 'Exec=env VIRGL_DEBUG=bgraswz steam', then save. Once saved, restart Crostini.
 
 !This will be updated eventually!
 
