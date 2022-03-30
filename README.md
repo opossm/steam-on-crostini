@@ -2,7 +2,7 @@
 A Steam installation script for Crostini/Includes fixes for Source Engine games
 
 This is a small utility I created for installing and configuring Steam on Linux for Chromebooks.
-NOTE THIS ONLY WORKS FOR x86 ARCH!
+NOTE THIS ONLY WORKS FOR x86 architecture!
 
 How to run it:
 ===========
