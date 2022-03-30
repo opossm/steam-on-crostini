@@ -1,13 +1,5 @@
-sudo apt update && sudo apt upgrade -y && sudo apt install gedit
-cd && sudo mkdir -p .local/share/applications
-sudo echo Adding and installing i386 libraries...
-sudo dpkg --add-architecture i386 && sudo apt update 
-sudo echo Adding non-free libraries...
+sudo dpkg --add-architecture i386
 sudo chmod a+rwx /etc/apt/sources.list && sudo echo 'deb http://deb.debian.org/debian/ stable main contrib non-free' > /etc/apt/sources.list
-sudo ls /etc/apt/sources.list
-sudo echo Updating Packages again...
 sudo apt update && sudo apt upgrade -y
-sudo echo Installing Steam...
 sudo apt install steam -y
-clear
-sudo echo Steam had been installed.
+echo Please launch and set up Steam before using the Source Fix script
