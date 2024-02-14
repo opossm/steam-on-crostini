@@ -1,34 +1,15 @@
 # steam-on-crostini
-A Steam installation script for Crostini/Includes fixes for Source Engine games
+A Steam installation script for Crostini
 
-This is a small utility I created for installing and configuring Steam on Linux for Chromebooks.
-NOTE THIS ONLY WORKS FOR x86_64 architecture Chromebooks - ARM Chromebooks will **NOT** work with this script.
+Small, stupid utility for easy Steam installation on Chromebooks through Crostini, only will work on x86_64 based CPUS (Intel, AMD), *this will not run on ARM CPUs!*
 
 How to run it:
 ===========
-1. Install the code as a zip and move it to your Linux folder.
-2. Navigate to the folder in the Linux terminal.
-3. In the folder, run `sudo chmod a+rwx *.sh`.
+1. Clone the repo: `git clone https://github.com/opossm/steam-on-crostini.git`
+2. Navigate to the folder.
+3. Give the install script executable permissions through `sudo chmod 775 steam-install.sh`
 4. Run steam-install.sh using `./steam-install.sh`
 
-Then run steam-install.sh
-
-If Source is having issues with color shift, use source-fix.sh and follow the instructions given by the script
-
-Known Issues
-===========
-- Some steam.desktop files are empty. I have attempted to patch it by copying the file directly after configuration.
-
-Planned Features
-===========
-- Better GUI maybe?
-- Easier to use and execute script
-
-
-
-
-
-
-
-
-subscrib to foxx
+**Help! All the colors look weird!**
+**==========**
+- Replace Line 30 of your Steam desktop file with `Exec=env VIRGL_DEBUG=bgraswz steam`, and colors should work fine.
