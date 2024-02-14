@@ -7,8 +7,8 @@ How to run it:
 ===========
 1. Clone the repo: `git clone https://github.com/opossm/steam-on-crostini.git`
 2. Navigate to the folder.
-3. Give the install script executable permissions through `sudo chmod 775 steam-install.sh`
-4. Run steam-install.sh using `./steam-install.sh`
+3. Give the install script executable permissions through `sudo chmod 775 install.sh`
+4. Run steam-install.sh using `./install.sh`
 
 **Help! All the colors look weird!**
 **==========**
